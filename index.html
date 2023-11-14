@@ -8,7 +8,7 @@
 </head>
 <style>
     html,body{
-        background-color: #191919;
+        background-color: #353535;
     }
     header{
         background-color: #191919;
@@ -69,6 +69,55 @@
         color:white;
         font-family: 'Courier New', Courier, monospace;
     }
+    .row1{
+        margin:20px;
+        border-radius:30px;
+        background-color:rgb(127, 7, 7);
+        display:flex;
+        justify-content: space-between;
+        padding:10px;
+    }
+    .bot{
+        color:white;
+        font-family:monospace;
+        font-size:14px;
+    }
+    .blk{
+        background-color: #191919;
+        padding:10px;
+        border-radius:20px;
+        margin:10px;
+        width:300px;
+        height:450px;
+    }
+    .imag{
+        border-radius:10px;
+        border:2px dotted rgb(127, 7, 7);
+    }
+    #address{
+        border-radius:30px;
+        background-color:#191919;
+        font-family:monospace;
+        padding-top:30px;
+        padding-left:30px;
+        padding-bottom:30px;
+        margin:20px;
+    }
+    .hd1{
+        text-align:center;
+        color:#191919;
+        font-family:monospace;
+    }
+    .hd{
+        text-align:center;
+        color:rgb(127, 7, 7);
+        font-family:monospace;
+
+    }
+    .top{
+        color:white;
+    }
+
 
 </style>
 <body>
@@ -105,8 +154,49 @@
       <div id="about" class="row about" align="center">
         <div class="col-12 col-md-12"><img class="club" src="club.jpg" width="600" height="600"></div>
         <div class="col-12 col-md-12"><h1 class="head dd">Auto <span>Club</span></h1>
-        <p class="exp">We provide premium car detailing services using a variety<br> of high quality tools to ensure that<br> your car looks and works perfectly</p></div>
+        <p class="exp">We provide premium car detailing services using a variety<br> of high quality tools to ensure that<br> your car looks perfect.</p></div>
 
+      </div>
+      <div>
+        <div class="row row1" id="services" align="center">
+            <h1 class="hd1">Services</h1>
+            <div class="col-12 col-md-4 blk" >
+                <img class="imag" src="detailing.jfif" width="200" height="200" >
+                <h1 class="top">Car Detailing</h1>
+                <p class="bot">The process of imrpoving the condition<br> of a vehicle's interior and exterior appearance.</p>
+            </div>
+            <div class="col-12 col-md-4 blk">
+                <img class="imag" src="WaterService.jfif" width="200" height="200">
+                <h1 class="top">Water Service</h1>
+                <p class="bot">We hand prep your vehicle with a high pressure<br> gun and a soft foam brush to clean all the <br>areas that are difficult for the equipment<br> package to reach.</p>
+            </div>
+            <div class="col-12 col-md-4 blk">
+                <img class="imag" src="vehicledetailing.jfif"  width="200" height="200">
+                <h1 class="top">Ceramic Coating</h1>
+                <p class="bot">A semi-permanent or permanent of coating that <br>is applied to the exterior of your vehicle to protect<br> against external paint damage.</p>
+            </div>
+        </div>
+        <div class="row row1" align="center">
+            <div class="col-12 col-md-4 blk">
+                <img class="imag" src="tefloncoating.jfif"  width="200" height="200">
+                <h1 class="top">Teflon Coating</h1>
+                <p class="bot">A synthetic sealant that binds to your car's <br>paint and forms a layer over it to provide<br> protection from minor scratches.</p>
+            </div>
+            <div class="col-12 col-md-4 blk">
+                <img class="imag" src="Decarbonize.jfif"  width="200" height="200">
+                <h1 class="top">De-carbonize</h1>
+                <p class="bot">A mechanical or chemical process in which carbon<br> deposits on the pistons and the cylinder<br> head are removed to ensure smooth and better<br> functioning of the overall engine.</p>
+            </div>
+            <div class="col-12 col-md-4 blk">
+                <img class="imag" src="sterallize.jfif" width="200" height="200">
+                <h1 class="top">Sterillize</h1>
+                <p class="bot">Sterillize your car interior and exterior<br> and keep you and your car free from germs</p>
+            </div>
+        </div>
+      </div>
+      <div id="address">
+        <h1 class="hd">Address</h1>
+        <p class="bot">Kakkad rd, Kakkad, kerala, India<br>Pincode:673602</p>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
